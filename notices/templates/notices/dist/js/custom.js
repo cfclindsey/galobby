@@ -1,8 +1,8 @@
 $(function () {
     "use strict";
-    $(function () {
-        $(".preloader").fadeOut();
-    });
+    //$(function () {
+    //    $(".preloader").fadeOut();
+    //});
     jQuery(document).on('click', '.mega-dropdown', function (e) {
         e.stopPropagation()
     });
@@ -85,7 +85,7 @@ $(function () {
     // Perfact scrollbar
     // ==============================================================
     $('.scroll-sidebar, .right-side-panel, .message-center, .right-sidebar').perfectScrollbar();
-    $('#chat, #msg, #comment, #todo').perfectScrollbar(); 
+    $('#chat, #msg, #comment, #todo').perfectScrollbar();
     // ==============================================================
     // Resize all elements
     // ==============================================================

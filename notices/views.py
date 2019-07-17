@@ -5,3 +5,6 @@ from django.http import HttpResponse
 def index(request):
     #return HttpResponse('Welcome to GA Lobby')
     return render(request, 'notices/base.html')
+
+def create_notice(request):
+    return render(request, 'notices/createnotice.html')
